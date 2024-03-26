@@ -36,11 +36,11 @@ def advect_step(q,u,dt,dx):
     
     return q
 
-nsteps = 1900  # number of steps
+nsteps = 2000  # number of steps
 alpha = 0.1    # timestep
 gamma = 5/3    # adiabatic index
 
-n = 1900
+n = 1000
 #cs2 = 1.0
 x = np.linspace(0, 1, n)
 dx = x[1]-x[0]
